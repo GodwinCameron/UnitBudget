@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(32, 32, 32);
+    .content{
+        display: flex;
+        margin-left: 1vw;
+        color: rgb(218, 218, 218);
+    }
+}

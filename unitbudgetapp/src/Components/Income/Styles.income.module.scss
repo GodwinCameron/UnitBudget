@@ -1,0 +1,59 @@
+@import "../../styling.scss";
+
+.main {
+  width: 40vw;
+  transition: all 0.5s;
+  overflow-y: scroll;
+  max-height: 30vh;
+
+  .addForm {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    gap: 0.5vw;
+    margin-bottom: 1vh;
+
+    .input {
+      // background-color: #282c34;
+      outline: none;
+      min-height: 2vh;
+      background-color: #3e434e;
+      border: 1px solid #282c34;
+      padding: 0.5vw;
+      color: $white-text;
+      min-width: 22%;
+      max-width: 25%;
+      &::placeholder {
+        color: #a0a0a0;
+      }
+    }
+  }
+
+  .earnersSection {
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    transition: all 0.5s;
+
+    .earner {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: rgba(153, 255, 0, 0.319);
+      height: 5vh;
+      width: 100%;
+      border-radius: 3px;
+      transition: all 0.5s;
+
+      .item {
+        margin-left: 2vw;
+      }
+      .last {
+        margin-left: auto;
+        margin-right: 0.5vw;
+      }
+    }
+  }
+}
